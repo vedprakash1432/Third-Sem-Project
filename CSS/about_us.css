@@ -1,0 +1,147 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Jost;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    height: 60px;
+    width: auto;
+}
+
+.nav-item a {
+    color: white;
+    transition: .5s;
+}
+
+.nav-item a:hover {
+    color: #ffffff;
+}
+
+.signin a {
+    padding: 10px 5em;
+    background-color: #004b5a;
+    border-radius: 50px;
+}
+
+.signout a {
+    background-color: #004b5a;
+    border-radius: 50px;
+}
+
+.login_menu {
+    height: 20vh;
+    width: auto;
+    margin-right: 100px;
+}
+
+.drop_log {
+    height: auto;
+    width: 14em;
+}
+
+.dropdown-item:hover {
+    background-color: gray;
+}
+
+.drop_a {
+    background-color: #9b9b8f;
+    transition: .3s;
+}
+
+.drop_a:hover {
+    margin-top: 10px;
+    color: black;
+    background-color: transparent;
+}
+
+.left_card {
+    height: 76.5vh;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.left_card::-webkit-scrollbar {
+    width: 10px;
+}
+
+.left_card::-webkit-scrollbar-thumb {
+    background-color: #9b9b8f;
+    border-radius: 10px;
+}
+
+.left_card h4 {
+    position: sticky;
+    top: 0em;
+}
+
+.left_card a {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px;
+    transition: .3s;
+}
+
+.left_card a:hover {
+    background-color: #198754;
+    padding-left: 20px;
+}
+
+.right_img img {
+    height: 60vh;
+    width: 100%;
+}
+
+.card_cont p {
+    text-align: justify;
+}
+
+.footer {
+    height: auto;
+    width: 100%;
+    color: white;
+}
+
+.foot h5 {
+    text-align: center;
+}
+
+.foot li {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.foot a {
+    color: white;
+    transition: .3s;
+}
+
+.foot a:hover {
+    padding-left: 10px;
+}
+
+.foot i {
+    font-size: 20px;
+    transition: .3s;
+}
+
+.dev a {
+    transition: .3s;
+}
+
+.dev a:hover {
+    padding-left: 10px;
+}
